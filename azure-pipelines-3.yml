@@ -2,7 +2,7 @@
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
-    projects:'**/Demo1.TestApi'
+    projects:'**/Demo1.TestApi.cs'
     configuration: '$(buildConfiguration)'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
